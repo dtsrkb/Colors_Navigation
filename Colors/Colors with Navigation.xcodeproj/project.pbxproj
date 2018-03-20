@@ -36,16 +36,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9EA894C12056F7AF0066E423 /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA894C12056F7AF0066E423 /* Colors with Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Colors with Navigation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA894C42056F7B00066E423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EA894C92056F7B00066E423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EA894CB2056F7B00066E423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EA894CE2056F7B00066E423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EA894D02056F7B00066E423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EA894D52056F7B00066E423 /* ColorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA894D52056F7B00066E423 /* Colors with NavigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Colors with NavigationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA894D92056F7B00066E423 /* ColorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsTests.swift; sourceTree = "<group>"; };
 		9EA894DB2056F7B00066E423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EA894E02056F7B00066E423 /* ColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA894E02056F7B00066E423 /* Colors with NavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Colors with NavigationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA894E42056F7B00066E423 /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		9EA894E62056F7B00066E423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EA894F22056F89C0066E423 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
@@ -91,9 +91,9 @@
 		9EA894C22056F7AF0066E423 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EA894C12056F7AF0066E423 /* Colors.app */,
-				9EA894D52056F7B00066E423 /* ColorsTests.xctest */,
-				9EA894E02056F7B00066E423 /* ColorsUITests.xctest */,
+				9EA894C12056F7AF0066E423 /* Colors with Navigation.app */,
+				9EA894D52056F7B00066E423 /* Colors with NavigationTests.xctest */,
+				9EA894E02056F7B00066E423 /* Colors with NavigationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9EA894C02056F7AF0066E423 /* Colors */ = {
+		9EA894C02056F7AF0066E423 /* Colors with Navigation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EA894E92056F7B00066E423 /* Build configuration list for PBXNativeTarget "Colors" */;
+			buildConfigurationList = 9EA894E92056F7B00066E423 /* Build configuration list for PBXNativeTarget "Colors with Navigation" */;
 			buildPhases = (
 				9EA894BD2056F7AF0066E423 /* Sources */,
 				9EA894BE2056F7AF0066E423 /* Frameworks */,
@@ -146,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = Colors;
+			name = "Colors with Navigation";
 			productName = Colors;
-			productReference = 9EA894C12056F7AF0066E423 /* Colors.app */;
+			productReference = 9EA894C12056F7AF0066E423 /* Colors with Navigation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9EA894D42056F7B00066E423 /* ColorsTests */ = {
+		9EA894D42056F7B00066E423 /* Colors with NavigationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EA894EC2056F7B00066E423 /* Build configuration list for PBXNativeTarget "ColorsTests" */;
+			buildConfigurationList = 9EA894EC2056F7B00066E423 /* Build configuration list for PBXNativeTarget "Colors with NavigationTests" */;
 			buildPhases = (
 				9EA894D12056F7B00066E423 /* Sources */,
 				9EA894D22056F7B00066E423 /* Frameworks */,
@@ -164,14 +164,14 @@
 			dependencies = (
 				9EA894D72056F7B00066E423 /* PBXTargetDependency */,
 			);
-			name = ColorsTests;
+			name = "Colors with NavigationTests";
 			productName = ColorsTests;
-			productReference = 9EA894D52056F7B00066E423 /* ColorsTests.xctest */;
+			productReference = 9EA894D52056F7B00066E423 /* Colors with NavigationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9EA894DF2056F7B00066E423 /* ColorsUITests */ = {
+		9EA894DF2056F7B00066E423 /* Colors with NavigationUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EA894EF2056F7B00066E423 /* Build configuration list for PBXNativeTarget "ColorsUITests" */;
+			buildConfigurationList = 9EA894EF2056F7B00066E423 /* Build configuration list for PBXNativeTarget "Colors with NavigationUITests" */;
 			buildPhases = (
 				9EA894DC2056F7B00066E423 /* Sources */,
 				9EA894DD2056F7B00066E423 /* Frameworks */,
@@ -182,9 +182,9 @@
 			dependencies = (
 				9EA894E22056F7B00066E423 /* PBXTargetDependency */,
 			);
-			name = ColorsUITests;
+			name = "Colors with NavigationUITests";
 			productName = ColorsUITests;
-			productReference = 9EA894E02056F7B00066E423 /* ColorsUITests.xctest */;
+			productReference = 9EA894E02056F7B00066E423 /* Colors with NavigationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +213,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9EA894BC2056F7AF0066E423 /* Build configuration list for PBXProject "Colors" */;
+			buildConfigurationList = 9EA894BC2056F7AF0066E423 /* Build configuration list for PBXProject "Colors with Navigation" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -226,9 +226,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EA894C02056F7AF0066E423 /* Colors */,
-				9EA894D42056F7B00066E423 /* ColorsTests */,
-				9EA894DF2056F7B00066E423 /* ColorsUITests */,
+				9EA894C02056F7AF0066E423 /* Colors with Navigation */,
+				9EA894D42056F7B00066E423 /* Colors with NavigationTests */,
+				9EA894DF2056F7B00066E423 /* Colors with NavigationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -293,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		9EA894D72056F7B00066E423 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9EA894C02056F7AF0066E423 /* Colors */;
+			target = 9EA894C02056F7AF0066E423 /* Colors with Navigation */;
 			targetProxy = 9EA894D62056F7B00066E423 /* PBXContainerItemProxy */;
 		};
 		9EA894E22056F7B00066E423 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9EA894C02056F7AF0066E423 /* Colors */;
+			target = 9EA894C02056F7AF0066E423 /* Colors with Navigation */;
 			targetProxy = 9EA894E12056F7B00066E423 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -470,7 +470,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colors.app/Colors";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colors with Navigation.app/Colors with Navigation";
 			};
 			name = Debug;
 		};
@@ -486,7 +486,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colors.app/Colors";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Colors with Navigation.app/Colors with Navigation";
 			};
 			name = Release;
 		};
@@ -523,7 +523,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9EA894BC2056F7AF0066E423 /* Build configuration list for PBXProject "Colors" */ = {
+		9EA894BC2056F7AF0066E423 /* Build configuration list for PBXProject "Colors with Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EA894E72056F7B00066E423 /* Debug */,
@@ -532,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EA894E92056F7B00066E423 /* Build configuration list for PBXNativeTarget "Colors" */ = {
+		9EA894E92056F7B00066E423 /* Build configuration list for PBXNativeTarget "Colors with Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EA894EA2056F7B00066E423 /* Debug */,
@@ -541,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EA894EC2056F7B00066E423 /* Build configuration list for PBXNativeTarget "ColorsTests" */ = {
+		9EA894EC2056F7B00066E423 /* Build configuration list for PBXNativeTarget "Colors with NavigationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EA894ED2056F7B00066E423 /* Debug */,
@@ -550,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EA894EF2056F7B00066E423 /* Build configuration list for PBXNativeTarget "ColorsUITests" */ = {
+		9EA894EF2056F7B00066E423 /* Build configuration list for PBXNativeTarget "Colors with NavigationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9EA894F02056F7B00066E423 /* Debug */,
